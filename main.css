@@ -528,6 +528,13 @@ img {
   }
 }
 @media only screen and (max-width: 760px) {
+    tr{
+    display: flex;
+    flex-direction: column;
+  }
+  li{
+    padding: 0 !important;
+  }
   .img-icon {
     right: 53px;
     display: flex;
